@@ -1,0 +1,26 @@
+───────────────▄▄───▐█
+───▄▄▄───▄██▄──█▀───█─▄
+─▄██▀█▌─██▄▄──▐█▀▄─▐█▀
+▐█▀▀▌───▄▀▌─▌─█─▌──▌─▌
+▌▀▄─▐──▀▄─▐▄─▐▄▐▄─▐▄─▐▄
+
+The `ls` command you used in the previous level can
+take maaaany parameters, to learn more about the `ls`
+command (or any other command), you can use the command
+`man` (short for manual).
+
+$ man ls
+
+Now try:
+
+$ ls -lA
+
+Sometimes your terminal screen can become
+a little messy as it fills with text.
+To clear the screen just hold down the
+`ctrl key` and press `l`. This will clear
+your terminal.
+
+ctrl l
+
+[forward>> read `start`]

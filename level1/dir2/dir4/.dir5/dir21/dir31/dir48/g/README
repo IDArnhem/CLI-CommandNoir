@@ -1,0 +1,21 @@
+░░░░░░░░░░░░░░░░▄▓▄
+░░░░▄█▄░░░░░░░░▄▓▓▓▄
+░░▄█████▄░░░░░▄▓▓▓▓▓▄
+░▀██┼█┼██▀░░░▄▓▓▓▓▓▓▓▄
+▄▄███████▄▄▄▄▄▄▄▄█▄▄▄▄
+
+Well done. To finish off we need to get back home.
+
+You can use the command:
+
+pwd
+
+To Print Working Directory and see where you are. We're along way from home!
+
+In Linux, your home folder is given a special symbol of its own called a tilde (~)
+
+To get back to your home folder you just need to type
+
+cd ~
+
+And remember - "There's no place like ~"

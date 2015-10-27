@@ -1,0 +1,21 @@
+To move up and down these directories we
+are going to use the `cd` command. `cd` is
+short for "change directory", you follow
+the command by the name of the directory
+you want to go to.
+
+$ cd level1
+
+To go back one level up, there's a special
+directory called `..` that will get you there
+by typing.
+
+$ cd ..
+
+You can use the `ls` command
+to list what is in the current
+directory any time you like.
+
+Now is a good time.
+
+[next>> change to `level1`]

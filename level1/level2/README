@@ -1,0 +1,23 @@
+
+ /\_/\     Sara has been gone for hours.
+( o.o )   I'm so hungry I could eat a sofa!
+ > ^ <      [...] I can see the park form this window, I'm sure
+          I can find her. Let's go get her!
+
+.-----=============================-----.
+if you list this directory, you'll see
+that there is a script coloured in green.
+your OSX terminal colours in green the
+programs that can be executed. To execute
+a program in the current directory, you
+type:
+
+$ ./name-of-program
+
+Try executing the `search` script by
+typing:
+
+$ ./search
+'-----=============================-----'
+
+[forward>> run script `search`]

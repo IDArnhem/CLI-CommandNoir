@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+echo " /\_/\ "
+echo "( o.o )  - miauw miaaaauw! "
+echo " > ^ < "
+
+say "Last time I saw her she had her running clothes on. Will you please help me find her?"
+
+echo
+echo
+echo "[forward>> if you want to find Sara go to the \`park\`]    [back>> stay home and starve]"

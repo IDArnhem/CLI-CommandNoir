@@ -1,0 +1,19 @@
+You're doing great and you haven't even had to use your...
+─────▄▄────▄▀▀█▀▀▀▀▄
+──▄▀▀──▀▀▄▄█▄▄█────█
+▄▀─────────█──█────█
+────────────▀▀▀▀▀▀▀
+
+Did you have a look in this directory using ls?
+
+If you did then you will have only seen this README, but there is actually another file and a directory in here, which you couldn't see.
+
+The file and directory are hidden. Hiding files and directories is easy in Linux, you just name the file with a dot at the beginning - .README for example or .dir5.
+
+To list all files and folders in a directory, including the hidden ones, we need to add a flag our ls command.
+The flag we use is -a
+Try typing this
+
+ls -a
+
+and then cat the file you find

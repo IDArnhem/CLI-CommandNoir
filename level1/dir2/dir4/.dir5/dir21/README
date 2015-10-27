@@ -1,0 +1,15 @@
+─▄▀─▄▀
+──▀──▀
+█▀▀▀▀▀█▄
+█░░░░░█─█
+▀▄▄▄▄▄▀▀
+
+The directory listed her (dir31) contains a mess of other directories. Trying to find the README would be a nightmare.
+
+We can search for files and directories using the Linux CLI quite easily though, using the find command.
+
+It can have many different flags, but we'll just use the -name flag for now. cd into dir31 and try
+
+find -name 'README'
+
+It will tell you the directory it's in, which you can then cd into.

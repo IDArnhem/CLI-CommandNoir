@@ -1,0 +1,30 @@
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
+█░░║║║╠─║─║─║║║║║╠─░░█
+█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+
+Well done on using the `cat` command.
+You're on your way to becoming a CLI ninja!
+
+The command `cat` let's you view the contents
+of a file. Make friends with the `cat`, it will help
+you in this adventure. You can tell the `cat` which
+file you want to read and the `cat` will show it to you.
+
+ /\_/\
+( o.o )  - unlike other cats, I do what you ask me to!
+ > ^ <
+
+The play field of this game consists of a
+tree of directories, each containing a few
+characters with their own story.
+
+All commands in the terminal can be followed by
+parameters, each has a bag of trick accessible with
+parameters. For example, `cat` takes as its first parameter
+the name of the file you want to view. Try:
+
+$ cat moving-around
+
+[next>> go to `moving-around`]
