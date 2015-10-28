@@ -21,7 +21,7 @@ tree of directories, each containing a few
 characters with their own story.
 
 All commands in the terminal can be followed by
-parameters, each has a bag of trick accessible with
+parameters, each has a bag of tricks accessible with
 parameters. For example, `cat` takes as its first parameter
 the name of the file you want to view. Try:
 

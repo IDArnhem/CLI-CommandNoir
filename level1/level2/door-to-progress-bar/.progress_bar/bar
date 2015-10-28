@@ -1,0 +1,25 @@
+
+
+  ,~~~.            last week a bearded Tor developer came into
+  [_ _]             the Progress Bar and asked for a craft ale.
+  |   |
+  |   |            ¯\_(ツ)_/¯  - we don't do home brews here, we
+,' _   `.                        have the best import stuff though
+|`={_}='|
+|   _   |          the guy went mad singing Death Cab for Cutie songs
+|_," "._|          and started flipping tables
+|biertje|                                              (╯°□°）╯︵ ┻━┻
+|-.___,-|          my guests were terrified
+|       |
+|       |            (Ͼ˳Ͽ) (๏_๏) (Ͼ˳Ͽ)    WTF!!?
+`--===--'
+
+since then I do my homebrew, this is how I installed it:
+
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Our homebrew is made for the finest Apples         
+
+
+[next>> install `homebrew` following the barman's method and talk to `the-gang-of-two`]
+.

@@ -1,8 +1,0 @@
-Homebrew is a package manager. It let's you install useful software
-to hack stuff that Apple thinks is too irresponsible to let you use.
-
-
-$ brew install nmap
-$ brew install wget
-
-[nextt>> Install the clan of four and leave the Progress Bar `cd ..`]

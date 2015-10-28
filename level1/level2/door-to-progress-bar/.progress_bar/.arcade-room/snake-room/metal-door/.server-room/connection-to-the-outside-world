@@ -1,0 +1,12 @@
+See if we have connectivity to the outside world by `pinging`
+a server that belongs to somebody else, say Google:
+
+$ ping google-public-dns-a.google.com
+
+Pinging is a way of finding out if a computer
+is alive and listening in the network.
+
+Press `Control C` to stop pinging.
+
+[next>> read `tracing-networks`]
+.

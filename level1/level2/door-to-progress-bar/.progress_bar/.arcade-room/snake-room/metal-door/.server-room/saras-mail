@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -gt 0 ]; then
+  echo "Sara sent an email to this address $1"
+  cat .mailtxt | mail -s "dear cat" $1
+else
+    echo "Usage: saras-mail <your@email-address.tld>"
+fi

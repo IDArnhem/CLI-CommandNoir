@@ -1,0 +1,9 @@
+We can trace any computer on the Internet and how to get to it by using the
+`traceroute` command:
+
+$ traceroute <IP or domain name of server>
+
+Check the route from your computer to the website
+of one large newspaper in your country.
+
+[next>> check the route to `www.volkskrant.nl`]

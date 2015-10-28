@@ -1,0 +1,45 @@
+
+.-------------=====--------------.
+   Apple's default installation
+   of python is crippled.
+
+   You can't go very far with
+   such puny tools.
+
+   If you want to pick the locks
+   along the way, you will need
+   to supercharge your python.
+
+   To install the stuff you need
+   to become `super user` (su).
+   That's the user in your
+   computer that dares to do
+   risky stuff. But Apple will
+   not let you, you can only
+   pose as `super user` in OSX.
+
+   You do that by preceding any
+   risky command with the command
+   `sudo` (do as `super user`).
+
+   Install the python package
+   installer `pip`:
+
+   $ sudo easy_install pip
+
+   Use your new flashy `pip` to
+   install other python libraries
+   that you will need:
+
+   $ sudo pip install requests
+   $ sudo pip install twilio
+   $ sudo pip install pillow
+   $ sudo pip install sqlite
+   $ sudo pip install docopt
+   $ sudo pip install lxml
+   $ sudo pip install nltk
+   $ sudo pip install SimpleAES
+'-------------=====--------------'
+
+[next>> install all the `suggested python libraries`]
+.

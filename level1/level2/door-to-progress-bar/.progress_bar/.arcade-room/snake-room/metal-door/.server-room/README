@@ -1,0 +1,24 @@
+
+\    /\     oh! This is the Progress Bar server room,
+ )  ( ')  /  we are in business now. we have access to
+ (  /  )      everything from here.
+  \(__)|
+
+Maybe you can nmap the network to see who is around. Use:
+
+$ nmap -sP <your subnet>
+
+Find who is who:
+
+ ___   _      ___   _      ___   _      ___   _      ___   _
+[(_)] |=|    [(_)] |=|    [(_)] |=|    [(_)] |=|    [(_)] |=|
+ '-`  |_|     '-`  |_|     '-`  |_|     '-`  |_|     '-`  |_|
+/mmm/  /     /mmm/  /     /mmm/  /     /mmm/  /     /mmm/  /
+      |____________|____________|____________|____________|
+                         |            |            |
+                     ___  \_      ___  \_      ___  \_
+                    [(_)] |=|    [(_)] |=|    [(_)] |=|
+                     '-`  |_|     '-`  |_|     '-`  |_|
+                    /mmm/        /mmm/        /mmm/
+
+[next>> read `connection-to-the-outside-world`]

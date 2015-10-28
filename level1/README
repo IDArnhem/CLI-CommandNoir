@@ -23,4 +23,4 @@ your terminal.
 
 ctrl l
 
-[forward>> read `start`]
+[forward>> read `hello`]

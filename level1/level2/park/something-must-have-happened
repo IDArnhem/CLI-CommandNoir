@@ -1,5 +1,33 @@
 
+
+
 \    /\    this is very strange, she always comes home for a shower
- )  ( ')  /   after her run
+ )  ( ')  /   after her run, it's unlike her to go straight to the Progress Bar
 (  /  )
  \(__)|
+
+
+I've heard all kinds of
+stories about the Progress Bar
+you gotta be 1337 to get in.
+
+You better brush up on our command line fu
+otherwise this is the end of our quest.
+
+Remember:
+
+$ file some-file-name
+
+Gives you a hint about the contents of a
+any file you give it.
+
+To make a script executable, you use the
+command `chmod`, and you can give yourself
+the right of execution by giving it `u+x`
+rights, like this:
+
+$ chmod u+x some-script-file-name
+
+
+
+[forward>> go to the `progress bar`]      [back>> stay playing fetch with hound]

@@ -1,0 +1,138 @@
+#!/usr/bin/env python
+import json
+import socket
+import os
+
+__SKULL__ ='''
+                       .ed"""" """$$$$be.
+                     -"           ^""**$$$e.
+                   ."                   '$$$c
+                  /                      "4$$b
+                 d  3                     $$$$
+                 $  *                   .$$$$$$
+                .$  ^c           $$$$$e$$$$$$$$.
+                d$L  4.         4$$$$$$$$$$$$$$b
+                $$$$b ^ceeeee.  4$$ECL.F*$$$$$$$
+    e$""=.      $$$$P d$$$$F $ $$$$$$$$$- $$$$$$
+   z$$b. ^c     3$$$F "$$$$b   $"$$$$$$$  $$$$*"      .=""$c
+  4$$$$L   \     $$P"  "$$b   .$ $$$$$...e$$        .=  e$$$.
+  ^*$$$$$c  %..   *c    ..    $$ 3$$$$$$$$$$eF     zP  d$$$$$
+    "**$$$ec   "\   %ce""    $$$  $$$$$$$$$$*    .r" =$$$$P""
+          "*$b.  "c  *$e.    *** d$$$$$"L$$    .d"  e$$***"
+            ^*$$c ^$c $$$      4J$$$$$% $$$ .e*".eeP"
+               "$$$$$$"'$=e....$*$$**$cz$$" "..d$*"
+                 "*$$$  *=%4.$ L L$ P3$$$F $$$P"
+                    "$   "%*ebJLzb$e$$$$$b $P"
+                      %..      4$$$$$$$$$$ "
+                       $$$e   z$$$$$$$$$$%
+                        "*$c  "$$$$$$$P"
+                         ."""*$$$$$$$$bc
+                      .-"    .$***$$$"""*e.
+                   .-"    .e$"     "*$c  ^*b.
+            .=*""""    .e$*"          "*bc  "*$e..
+          .$"        .z*"               ^*$e.   "*****e.
+          $$ee$c   .d"                     "*$.        3.
+          ^*$E")$..$"                         *   .ee==d%
+             $.d$$$*                           *  J$$$e*
+              """""                             "$$$"
+'''
+
+__ATTEMPT1__ = '''
+               .---------------====--------------.
+               | forget it, you are not getting  |
+               | into the Progress Bar [...]     |
+               '---------------====--------------'
+'''
+
+__ATTEMPT2__ = '''
+               .---------------====--------------.
+               | I told you to forget it!        |
+               | you stupid kiddycat!            |
+               '---------------====--------------'
+'''
+
+__ATTEMPT3__ = '''
+               .---------------====--------------.
+               | ok! smart-ass cat! only hackers |
+               | get in the Progress Bar, if you |
+               | tell me your IP address I might |
+               | let you in [...]                |
+               '---------------====--------------'
+'''
+
+
+def save_tries(count):
+    d = {'tries' : count}
+    with open('.tries', 'w') as outfile:
+        json.dump(d, outfile)
+        outfile.close()
+
+def get_local_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(('8.8.8.8', 53))  # connecting to a UDP address doesn't send packets
+    return s.getsockname()[0]
+
+def unlock_progress_bar():
+    # play some music in the background
+    import subprocess
+    audio_file = "progress_bar/.media/nothing_is_true.mp3"
+    return_code = subprocess.Popen(["afplay", audio_file])
+    # unlock the secret door
+    try:
+        os.rename('.progress_bar', 'progress_bar')
+    except OSError, e:
+        pass
+    finally:
+        print
+        print  "Door to the Progress Bar has been unlocked!"
+        print
+        print  "[forward>> go into `progress-bar`]"
+        print
+
+if __name__ == '__main__':
+    print __SKULL__
+    if os.path.isfile('.tries'):
+        with open('.tries') as jsonf:
+            d = json.loads(jsonf.read())
+            if d['tries'] == 1:
+                text = __ATTEMPT2__
+                save_tries(2)
+            if d['tries'] == 2:
+                text = __ATTEMPT3__
+                save_tries(3)
+            if d['tries'] == 3:
+                print "Enter your IP address or be forever silent: ",
+                ip_in = raw_input()
+                local_ip_address = get_local_ip()
+                if ip_in == local_ip_address:
+                    text = ""
+                    print """
+                    .---------------====--------------.
+                      Ok! Mr. Bojangles! Welcome to
+                      the Progress Bar.
+
+                      Licking your own balls isn't
+                      allowed here! HA HA HA!
+                    '---------------====--------------'
+                    """
+                    unlock_progress_bar()
+                else:
+                    text = """
+                    .---------------====--------------.
+                      You wouldn't be able to hack
+                      your way out of a paper bag
+                      kiddykat!!!
+
+                      Go back home and never
+                      come again!
+                    '---------------====--------------'
+                    """
+
+    else:
+        text = __ATTEMPT1__
+        save_tries(1)
+
+    print text
+
+    # print "Enter a file name:",
+    # filename = raw_input()

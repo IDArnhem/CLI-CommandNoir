@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo
+echo
+echo
+echo " /\_/\ "
+echo "( O.o )  - OMG! That's Sara! "
+echo " > ^ < "
+echo
+echo "SARA! WHERE ARE YOU!? CAN YOU HEAR ME!?"
+
+afplay ../.media/scream.wav &
+
+echo
+echo "[forward>> the scream came from the \`snake-room\`]    [back>> what!? you are scared now?]"
+echo

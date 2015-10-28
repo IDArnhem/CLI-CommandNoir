@@ -1,0 +1,20 @@
+
+ /\_/\       we are going to need heftier tools for
+( o.o )  - the challenges ahead... but with `homebrew` we
+ > ^ <       can get everything we will need for free!
+
+Homebrew is a package manager.
+It let's you install useful software
+to hack on stuff that Apple thinks is
+too irresponsible to let you use.
+
+You can install any package by typing:
+
+$ brew install <package-name>
+
+Let's try and install two interesting packages:
+
+$ brew install nmap
+$ brew install wget
+
+[nextt>> install `nmap` and `wget` and then take one of the doors]
