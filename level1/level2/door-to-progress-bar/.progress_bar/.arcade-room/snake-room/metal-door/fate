@@ -13,7 +13,7 @@ Options:
   -h --help              Show this screen.
   -p --password=<pw>     Provide password.
 """
-from twilio.rest import TwilioRestClient
+from twilio.rest import Client
 from docopt import docopt
 import json
 from SimpleAES import SimpleAES  # military-grade bollocks!
@@ -31,7 +31,7 @@ def decrypt_secret(passphrase="Haven't got a clue"):
 
 def send_sms_to(mobile, sid, token):
     try:
-        client = TwilioRestClient(sid, token)
+        client = Client(sid, token)
         myTwilioNumber = '+31852080387'
         msgtext = "Give up or you'll never eat Whiskas again! Quit your quest! The .server-room is hidden"
         print "Sending now an sms to", mobile
