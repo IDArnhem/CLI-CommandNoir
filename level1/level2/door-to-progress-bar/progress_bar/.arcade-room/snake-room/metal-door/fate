@@ -62,9 +62,3 @@ if __name__ == '__main__':
 
     if cred and ('<your_mobile_number>' in arguments):
         send_sms_to(arguments['<your_mobile_number>'], cred['accountSID'], cred['authToken'])
-
-dek = """{
-    "accountSID": "ACc87080b97eba7acd0fd2a8d352968085",
-    "authToken" : "70db12a23d1b656733d8883b05c6bad1"
-}
-"""
