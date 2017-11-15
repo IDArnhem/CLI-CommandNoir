@@ -73,21 +73,22 @@ def get_local_ip():
     return s.getsockname()[0]
 
 def unlock_progress_bar():
+    # unlock the secret door
+    try:
+        if not os.path.exists('progress_bar'):
+            os.rename('.progress_bar', 'progress_bar')
+    except OSError, e:
+        pass
+    finally:
+        print("")
+        print("Door to the Progress Bar has been unlocked!")
+        print("")
+        print("[forward>> go into `progress-bar`]")
+        print("")
     # play some music in the background
     import subprocess
     audio_file = "progress_bar/.media/nothing_is_true.mp3"
     return_code = subprocess.Popen(["afplay", audio_file])
-    # unlock the secret door
-    try:
-        os.rename('.progress_bar', 'progress_bar')
-    except OSError, e:
-        pass
-    finally:
-        print
-        print  "Door to the Progress Bar has been unlocked!"
-        print
-        print  "[forward>> go into `progress-bar`]"
-        print
 
 if __name__ == '__main__':
     print __SKULL__

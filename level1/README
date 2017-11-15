@@ -11,6 +11,8 @@ command (or any other command), you can use the command
 
 $ man ls
 
+A reader will show you the `manual page`, you can quit the reader by pressing `q`.
+
 Now try:
 
 $ ls -lA
@@ -21,6 +23,6 @@ To clear the screen just hold down the
 `ctrl key` and press `l`. This will clear
 your terminal.
 
-ctrl l
+ctrl+l
 
 [forward>> read `hello`]
